@@ -1,0 +1,141 @@
+/*Body Color, h1 color, font family*/
+
+body {
+  background-color: beige;
+  max-width: 100rem;
+  margin: 1rem auto;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+h2 {
+  color: tan;
+  text-align: center;
+  font-size: 150px;
+  font-family: Ballet;
+  margin: 20px;
+}
+
+h3 {
+  color: lightblue;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px, ;
+}
+
+h4 {
+  color: brown;
+  text-align: center;
+}
+
+p {
+  font-family: times;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 40px;
+  text-align: justify;
+}
+
+h5 {
+  font-family: times;
+  font-size: 15px;
+  color: brown;
+}
+
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*book*/
+.book {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/270d.png) 36 36, auto;
+}
+
+/*world*/
+.world {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30e.png) 36 36, auto;
+}
+
+/*tomato*/
+.tomato {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f345.png) 36 36, auto;
+}
+
+/*book*/
+.book {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/270d.png) 36 36, auto;
+}
+
+/*cat*/
+.cat {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f63d.png) 36 36, auto;
+} 
+
+/*cat*/
+.ribbon {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c6.png) 36 36, auto;
+} 
+
+section {
+  display: flex;
+}
+
+.tooltiptext{
+  visibility:hidden;
+}
+
+.award:hover .tooltiptext{
+  visibility: visible;
+}
+
+.book:hover .tooltiptext{
+  visibility: visible;
+}
+
+.potluck:hover .tooltiptext{
+  visibility: visible;
+}
+
+figure {
+  position: sticky;
+  top: 3rem;
+}
+
+a {
+  color: #dd22dd;
+}
+
+button {
+  background-color: #9349DC;; /* Violet */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+figure {
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 450px;
+  color: #bc9055;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -225px;
+}
