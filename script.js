@@ -4,5 +4,6 @@ function countryAnswer(){
   if(passwordText=="80"){
     return true;
   }
-  alert("Not quite:/")
+  alert("Not quite:/");
+  return false;
 }
